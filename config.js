@@ -51,6 +51,7 @@ const CONFIG = {
     celebration: {
         title: "Yove made me the luckiest person in the world since you've entered my life💝💖💝💓",
         message: "I love you the most my sweetheart , sexy, hot , beautiful , genius , smartass, and loving tanishka",
+        
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
