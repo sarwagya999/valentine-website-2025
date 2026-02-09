@@ -79,7 +79,8 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://assets.mixkit.co/music/preview/mixkit-romantic-emotional-piano-668.mp3"
+       musicUrl: "https://assets.mixkit.co/music/preview/mixkit-romantic-emotional-piano-668.mp3?cb=" + new Date().getTime(),
+
 // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
