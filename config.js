@@ -1,3 +1,4 @@
+
 // ============================================
 // 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
 // ============================================
@@ -5,7 +6,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Tanishka",
+    valentineName: "TANISHKA",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -29,11 +30,11 @@ const CONFIG = {
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            startText: "TO LITTLE",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
+            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -42,16 +43,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Now youre halfway in comparison to my love for you💝",  // Shows when they go past 5000%
-        high: "i know you love your coffee more than me </3 ",              // Shows when they go past 1000%
-        normal: "meh :( "                           // Shows when they go past 100%
+        extreme: "SO BASICALLY LOT LESS THAN I DO BUT ALRIGHT💝",  // Shows when they go past 5000%
+        high: "FEELS LIKE I'M SECOND TO YOUR COFFEE💝",              // Shows when they go past 1000%
+        normal: "MEH :( "                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yove made me the luckiest person in the world since you've entered my life💝💖💝💓",
-        message: "I love you the most my sweetheart , sexy, hot , beautiful , genius , smartass, and loving tanishka",
-        
+        title: "SINCE YOU'VE ENTERED MY LIFE, I'M THE LUCKIEST PERSON IN THE WORLD💓",
+        message: "I LOVE YOU SO MUCH MY HOT, BEAUTIFUL, SMARTASS, GENIUS, SEXY , LOVING AND KIND TANISHKA ",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -76,17 +76,14 @@ const CONFIG = {
 
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
-// Music Settings
-music: {
-    enabled: true, // Music feature is enabled
-    autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
-    startText: "🎵 Play Music", // Button text to start music
-    stopText: "🔇 Stop Music", // Button text to stop music
-    volume: 0.5 // Volume level (0.0 to 1.0)
-}
-
-
+    music: {
+        enabled: true,                     // Music feature is enabled
+        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
+        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        startText: "🎵 Play Music",        // Button text to start music
+        stopText: "🔇 Stop Music",         // Button text to stop music
+        volume: 0.5                        // Volume level (0.0 to 1.0)
+    }
 };
 
 // Don't modify anything below this line unless you know what you're doing
