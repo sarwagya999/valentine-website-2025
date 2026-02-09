@@ -76,24 +76,16 @@ const CONFIG = {
 
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
-    music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-       musicUrl: "https://assets.mixkit.co/music/preview/mixkit-romantic-emotional-piano-668.mp3?cb=" + new Date().getTime(),
+// Music Settings
+music: {
+    enabled: true, // Music feature is enabled
+    autoplay: true, // Try to autoplay (note: some browsers may block this)
+    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
+    startText: "🎵 Play Music", // Button text to start music
+    stopText: "🔇 Stop Music", // Button text to stop music
+    volume: 0.5 // Volume level (0.0 to 1.0)
+}
 
-// Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
-    }// Play music when the user taps anywhere
-let audio = new Audio("https://assets.mixkit.co/music/preview/mixkit-romantic-emotional-piano-668.mp3");
-audio.volume = 0.5;
-
-document.body.addEventListener("click", function() {
-    if (audio.paused) {
-        audio.play();
-    }
-});
 
 };
 
