@@ -43,13 +43,13 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "Now youre halfway in comparison to my love for you💝",  // Shows when they go past 5000%
-        high: "i know you love your coffee morethan me💝",              // Shows when they go past 1000%
+        high: "i know you love your coffee more than me </3 ",              // Shows when they go past 1000%
         normal: "meh :( "                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yove made me the luckiest person in the world since youve entered my life💝💖💝💓",
+        title: "Yove made me the luckiest person in the world since you've entered my life💝💖💝💓",
         message: "I love you the most my sweetheart , sexy, hot , beautiful , genius , smartass, and loving tanishka",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
